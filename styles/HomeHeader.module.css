@@ -1,0 +1,22 @@
+.container {
+  align-items: center;
+  background-color: #dff5fc;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  text-align: center;
+}
+
+.profilePicture {
+  margin-top: 24px;
+}
+
+.socialLinks {
+  margin-top: 24px;
+}
+
+.title {
+  font-size: 72px;
+}

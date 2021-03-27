@@ -1,0 +1,9 @@
+.image {
+  border-radius: 800px;
+  filter: grayscale(80%) brightness(1.1);
+}
+
+.imageContainer {
+  height: 484px;
+  width: 340px;
+}
