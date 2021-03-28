@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  margin-top: 50px;
+  max-width: 1000px;
+}
+
+.container:first-child {
+  margin-top: 0;
+}
+
+.content {
+  margin-left: 32px;
+}
+
+.links {
+  display: flex;
+  margin-top: 12px;
+}
+
+.media {
+  align-items: center;
+  border-radius: 30px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  width: 300px;
+}
+
+.title {
+  font-size: 30px;
+}

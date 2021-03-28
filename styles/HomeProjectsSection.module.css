@@ -1,0 +1,38 @@
+.container {
+  align-items: center;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+}
+
+.harken {
+  background-color: #5c61df;
+}
+
+.image {
+  border-radius: 30px;
+}
+
+.imageContainer {
+  align-items: center;
+  border-radius: 30px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+}
+
+.imageContainerSmall {
+  align-items: center;
+  border-radius: 30px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  position: relative;
+  width: 240px;
+}
+
+.projects {
+  margin-top: 32px;
+}
