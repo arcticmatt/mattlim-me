@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HomeAboutSection from "../components/home/sections/HomeAboutSection";
+import HomeFavoritesSection from "../components/home/sections/HomeFavoritesSection";
 import HomeFooterSection from "../components/home/sections/HomeFooterSection";
 import HomeGradientSection from "../components/home/sections/HomeGradientSection";
 import HomeHeaderSectionk from "../components/home/sections/HomeHeaderSection";
@@ -16,6 +17,7 @@ export default function Home() {
         <HomeHeaderSectionk />
         <HomeAboutSection />
         <HomeProjectsSection />
+        <HomeFavoritesSection />
         <HomeGradientSection />
         <HomeFooterSection />
       </div>
