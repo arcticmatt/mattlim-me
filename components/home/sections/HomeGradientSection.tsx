@@ -18,7 +18,7 @@ export default function HomeGradientSection() {
         id="myCanvas"
         width="900"
         height="450"
-        style={{ height: "300px", width: "100%" }}
+        style={{ height: "300px", marginBottom: -10, width: "100%" }}
       ></canvas>
     </>
   );

@@ -20,7 +20,7 @@ export default function HomeHeaderSectionk() {
           <div>Forager of mushrooms</div>
         </div>
         <div className={styles.socialLinks}>
-          <HomeSocialLinks />
+          <HomeSocialLinks color="black" />
         </div>
         <div className={styles.profilePicture}>
           <HomeProfilePicture />
