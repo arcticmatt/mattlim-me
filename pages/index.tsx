@@ -15,11 +15,11 @@ export default function Home() {
       </Head>
       <div>
         <HomeHeaderSectionk />
-        <HomeAboutSection />
-        <HomeProjectsSection />
-        <HomeFavoritesSection />
-        <HomeGradientSection />
-        <HomeFooterSection />
+        {/* <HomeAboutSection /> */}
+        {/* <HomeProjectsSection /> */}
+        {/* <HomeFavoritesSection /> */}
+        {/* <HomeGradientSection /> */}
+        {/* <HomeFooterSection /> */}
       </div>
     </div>
   );

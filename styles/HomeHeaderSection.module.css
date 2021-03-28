@@ -1,8 +1,17 @@
+.column1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   background-color: #dff5fc;
 }
 
 .description {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
   text-align: center;
 }
 
@@ -10,6 +19,8 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .profilePicture {
@@ -21,5 +32,32 @@
 }
 
 .title {
-  font-size: 72px;
+  font-family: "Space Mono", sans-serif;
+  font-size: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .innerContainer {
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .profilePicture {
+    margin-left: 80px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .innerContainer {
+    padding-bottom: 44px;
+    padding-top: 44px;
+  }
+
+  .profilePicture {
+    margin-left: 120px;
+    margin-top: 0;
+  }
 }

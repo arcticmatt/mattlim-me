@@ -4,12 +4,13 @@ type Props = {
   children: JSX.Element | string;
   href: string;
   icon?: any;
+  subtle?: boolean;
 };
 
-export default function Link({ children, href, icon }: Props) {
+export default function Link({ children, href, icon, subtle = false }: Props) {
   if (icon == null) {
     return (
-      <a className={styles.link} href={href}>
+      <a className={subtle ? styles.linkSubtle : styles.link} href={href}>
         {children}
       </a>
     );
@@ -18,7 +19,11 @@ export default function Link({ children, href, icon }: Props) {
   return (
     <div>
       {icon}
-      <a className={styles.link} href={href} style={{ marginLeft: 6 }}>
+      <a
+        className={subtle ? styles.linkSubtle : styles.link}
+        href={href}
+        style={{ marginLeft: 6 }}
+      >
         {children}
       </a>
     </div>

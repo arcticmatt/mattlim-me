@@ -25,6 +25,12 @@ const FAVORITES: {
 } = {
   books: [
     {
+      extraText: " by David Arora",
+      link:
+        "https://www.amazon.com/Mushrooms-Demystified-David-Arora/dp/0898151694",
+      title: <em>Mushrooms Demystified</em>,
+    },
+    {
       extraText: " by Joseph Heller",
       link: "https://www.amazon.com/Catch-22-Joseph-Heller/dp/0684833395",
       title: <em>Catch-22</em>,
@@ -166,7 +172,7 @@ const FAVORITES: {
       extraText: " by Grimes",
       link:
         "https://www.youtube.com/watch?v=7LmBM0mTafI&list=PLZqsyBiYZFQ2U2IoBiKJVreYb77td7pOT",
-      title: <em>Art Angeles</em>,
+      title: <em>Art Angels</em>,
     },
     {
       extraText: " by The Shins",
@@ -543,7 +549,10 @@ export default function HomeFavoritesSection() {
   // https://perishablepress.com/css-center-align-list-left-align-text/
 
   return (
-    <div className={classes(styles.container, containerStyles.container)}>
+    <div
+      className={classes(styles.container, containerStyles.container)}
+      id="favorites"
+    >
       <div
         className={classes(
           styles.innerContainer,

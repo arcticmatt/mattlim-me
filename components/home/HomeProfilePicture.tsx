@@ -8,9 +8,9 @@ export default function HomeProfilePicture() {
         alt="Header"
         className={styles.image}
         src="/images/profile2.jpg"
-        height={484}
-        layout="responsive"
-        width={340}
+        layout="fill"
+        objectFit="cover"
+        objectPosition="top"
       />
     </div>
   );

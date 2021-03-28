@@ -8,7 +8,10 @@ import styles from "../../../styles/HomeProjectsSection.module.css";
 
 export default function HomeProjectsSection() {
   return (
-    <div className={classes(styles.container, containerStyles.container)}>
+    <div
+      className={classes(styles.container, containerStyles.container)}
+      id="projects"
+    >
       <div className={containerStyles.innerContainer}>
         <HomeSectionTitle title="Projects" />
         <div className={styles.projects}>

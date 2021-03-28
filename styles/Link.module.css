@@ -5,7 +5,40 @@
 }
 
 .link:hover {
+  text-decoration: none;
+}
+
+.link:active {
   background-color: rgba(255, 183, 0, 0.5);
   text-decoration: none;
-  transition: background-color 500ms;
+  transition: background-color 300ms;
+}
+
+.linkSubtle {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.linkSubtle:hover {
+  text-decoration: none;
+}
+
+.linkSubtle:active {
+  background-color: rgba(255, 183, 0, 0.5);
+  text-decoration: none;
+  transition: background-color 300ms;
+}
+
+@media (hover: hover) {
+  .link:hover {
+    background-color: rgba(255, 183, 0, 0.5);
+    text-decoration: none;
+    transition: background-color 300ms;
+  }
+
+  .linkSubtle:hover {
+    background-color: rgba(255, 183, 0, 0.5);
+    text-decoration: none;
+    transition: background-color 300ms;
+  }
 }
