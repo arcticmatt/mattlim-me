@@ -1,5 +1,6 @@
 import Head from "next/head";
-import HomeHeader from "../components/home/HomeHeader";
+import HomeAboutSection from "../components/home/sections/HomeAboutSection";
+import HomeHeaderSectionk from "../components/home/sections/HomeHeaderSection";
 
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
         <title>Hi</title>
       </Head>
       <div>
-        <HomeHeader />
+        <HomeHeaderSectionk />
+        <HomeAboutSection />
       </div>
     </div>
   );

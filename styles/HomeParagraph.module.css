@@ -1,0 +1,28 @@
+.bodyText {
+  color: #1f1f1f;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.paragraph {
+  margin-bottom: 0px;
+  margin-top: 22px;
+}
+
+.paragraph:first-child {
+  margin-top: 24px;
+}
+
+/*
+ * NOTE: breakpoint values stolen from https://tailwindcss.com/docs/breakpoints
+ */
+@media only screen and (min-width: 1024px) {
+  .bodyText {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .paragraph:first-child {
+    margin-top: 32px;
+  }
+}
