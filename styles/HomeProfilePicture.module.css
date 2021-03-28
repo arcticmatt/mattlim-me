@@ -4,9 +4,32 @@
 }
 
 .imageContainer {
+  background-image: url(/images/profile.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 800px;
+  filter: grayscale(80%) brightness(1.1);
   height: 300px;
-  position: relative;
   width: 300px;
+}
+
+.imageContainer:active {
+  background-image: url(/images/pixelme.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  filter: none;
+}
+
+@media (hover: hover) {
+  .imageContainer:hover {
+    background-image: url(/images/pixelme.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    filter: none;
+  }
 }
 
 @media only screen and (min-width: 1024px) {

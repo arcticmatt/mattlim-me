@@ -540,6 +540,7 @@ export default function HomeFavoritesSection() {
 
   const favoriteItemButtons = Object.values(FavoriteItemEnum).map((item) => (
     <FavoriteItemButton
+      key={item}
       item={item}
       selectedFavorite={selectedFavorite}
       setSelectedFavorite={setSelectedFavorite}
@@ -564,12 +565,13 @@ export default function HomeFavoritesSection() {
         <HomeParagraph>
           <div className={styles.favoriteItemButtons}>
             Here are some of my favorite{" "}
-            {intersperse(favoriteItemButtons, ", ", ", and ")}. Tweet me if you
-            have any recommendations.
+            {intersperse(favoriteItemButtons, ", ", ", and ")}.{" "}
+            <Link href="https://twitter.com/pencilflip">Tweet me</Link> if you
+            have any recommendations!
           </div>
           <ul>
             {FAVORITES[selectedFavorite].map((info) => (
-              <li>
+              <li key={info.link}>
                 <FavoriteItem
                   extraText={info.extraText}
                   link={info.link}

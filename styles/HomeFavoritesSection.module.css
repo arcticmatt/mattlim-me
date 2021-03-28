@@ -3,7 +3,6 @@
   background-color: rgb(254, 255, 243);
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
 }
 
 .innerContainer {
@@ -34,6 +33,17 @@
 
 .favoriteItemSelected {
   background-color: rgba(200, 247, 193, 0.8);
+}
+
+.favoriteItemSelected:active {
+  background-color: rgba(200, 247, 193, 0.8);
+}
+
+@media (hover: hover) {
+  .favoriteItemSelected:hover {
+    background-color: rgba(200, 247, 193, 0.8);
+    cursor: pointer;
+  }
 }
 
 .favoriteItemButtons {
