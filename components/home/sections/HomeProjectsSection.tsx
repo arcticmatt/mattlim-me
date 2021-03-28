@@ -35,11 +35,11 @@ export default function HomeProjectsSection() {
           >
             <HomeParagraph style={{ marginTop: 0 }}>
               I'm currently building Harken with{" "}
-              <Link href="https://www.katherineliu.me/">Katherine</Link>.
-              Eventually, Harken will be the best way to remember what you
-              learn. We're currently finishing up the flashcard system, which is
-              like a better version of Anki. After that we'll build the online
-              class platform, which will be like Udemy and Anki combined.
+              <Link href="https://www.katherineliu.me/">Katherine</Link>. It's
+              the best way to remember what you learn. We're currently finishing
+              up the flashcard system, which is like a better version of Anki.
+              After that we'll build the online class platform, which will be
+              like Udemy and Anki combined.
             </HomeParagraph>
           </HomeProject>
           <HomeProject
@@ -55,7 +55,7 @@ export default function HomeProjectsSection() {
                   layout="fill"
                   objectFit="cover"
                   objectPosition="left"
-                  src="/images/projects/porta-penguin.png"
+                  src="/images/projects/porta-penguin.gif"
                 />
               </div>
             }
@@ -202,7 +202,7 @@ export default function HomeProjectsSection() {
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
-                  src="/images/projects/happythings.png"
+                  src="/images/projects/happythings.gif"
                 />
               </div>
             }

@@ -18,12 +18,12 @@ export default function HomeAboutSection() {
             for AR/VR devices. Although I prefer working on products—something I
             only really realized after doing systems software for a year—it was
             fun to work so close to the hardware. In addition to picking up cool
-            new acronyms like “MCU” and “SoC,” I learned a lot about C++, TCP,
-            FlatBuffers, and how painful it is to stand up a BlueTooth stack.
-            Before that I worked on integrity, building tooling and
-            infrastructure for the thousands of content moderators Facebook has
-            around the world. My projects included building a system that maps
-            decisions to actions (which is a lot more complicated than it
+            new acronyms like &quot;MCU&quot; and &quot;SoC,&quot; I learned a
+            lot about C++, TCP, FlatBuffers, and how painful it is to stand up a
+            BlueTooth stack. Before that I worked on integrity, building tooling
+            and infrastructure for the thousands of content moderators Facebook
+            has around the world. My projects included building a system that
+            maps decisions to actions (which is a lot more complicated than it
             sounds) and making{" "}
             <Link href="https://www.fastcompany.com/90367858/facebook-is-expanding-its-tools-to-make-content-moderation-less-toxic">
               content moderation a less harrowing experience
@@ -33,7 +33,7 @@ export default function HomeAboutSection() {
             <Link href="https://www.wnycstudios.org/podcasts/radiolab/articles/post-no-evil">
               Post No Evil
             </Link>{" "}
-            podcast by RadioLab .
+            podcast by RadioLab.
           </HomeParagraph>
           <HomeParagraph>
             I graduated from Caltech in 2017, where I majored in Computer
@@ -56,15 +56,15 @@ export default function HomeAboutSection() {
             , which means that English minor was <em>definitely</em> worth it.
           </HomeParagraph>
           <HomeParagraph>
-            I’ve suffered two concussions in my life—one as a high school senior
-            and one as a college freshman. Perhaps my proudest achievement is
-            just <em>getting through</em> college while dealing with
-            post-concussion syndrome. Over the years, I tried a lot of
-            medications to get through it—Topiramate (the most effective for
-            me), Verapamil, Amitriptyline, Innopran, Indomethacin, etc. I also
-            went to quite a few different doctors—multiple neurologists,
-            multiple chiropractors, an acupuncturist, and multiple physical
-            therapists. Seeing a{" "}
+            I’ve suffered two concussions in my life, both while playing
+            basketball—one as a high school senior and one as a college
+            freshman. Perhaps my proudest achievement is just{" "}
+            <em>getting through</em> college while dealing with post-concussion
+            syndrome. Over the years I tried a lot of medications—Topiramate
+            (the most effective for me), Verapamil, Amitriptyline, Innopran,
+            Indomethacin, etc. I also went to quite a few different
+            doctors—multiple neurologists, multiple chiropractors, an
+            acupuncturist, and multiple physical therapists. Seeing a{" "}
             <Link href="http://californiaconcussioninstitute.com/erin-isanhart-dpt-2/">
               neurologic physical therapist
             </Link>{" "}
@@ -99,7 +99,8 @@ export default function HomeAboutSection() {
             on my personal blog. Some of my other hobbies are bouldering,
             playing tennis, foraging for mushrooms, and playing games on my
             Nintendo Switch and Oculus Quest (Echo VR is awesome). I also read a
-            lot—some of my favorite books are listed down below.
+            lot—some of my <Link href="#favorites">favorite books</Link> are
+            listed down below.
           </HomeParagraph>
         </div>
       </div>

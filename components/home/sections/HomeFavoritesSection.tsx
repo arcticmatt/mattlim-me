@@ -113,7 +113,7 @@ const FAVORITES: {
     },
     {
       extraText: " by Jane Hirshfield",
-      link: "https://allpoetry.com/Dream-Song-46",
+      link: "https://www.poetryfoundation.org/poems/52468/for-what-binds-us",
       title: '"For What Binds Us"',
     },
   ],
