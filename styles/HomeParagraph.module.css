@@ -1,6 +1,7 @@
 .bodyText {
   color: #1f1f1f;
-  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
   line-height: 22px;
 }
 
@@ -13,9 +14,6 @@
   margin-top: 24px;
 }
 
-/*
- * NOTE: breakpoint values stolen from https://tailwindcss.com/docs/breakpoints
- */
 @media only screen and (min-width: 1024px) {
   .bodyText {
     font-size: 20px;

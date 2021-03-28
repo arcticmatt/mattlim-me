@@ -18,10 +18,7 @@ export default function HomeHeaderSectionk() {
           <div className={styles.title}>Matt Lim</div>
           <div className={styles.description}>
             <div>
-              Software @{" "}
-              <Link href="https://npe.fb.com/" subtle>
-                Facebook NPE
-              </Link>
+              Software @ <Link href="https://npe.fb.com/">Facebook NPE</Link>
               <br /> Creator of <Link href="#projects">side projects</Link>{" "}
               &#x1f4bb;
               <br /> Check out my <Link href="#favorites">favorites</Link>{" "}
