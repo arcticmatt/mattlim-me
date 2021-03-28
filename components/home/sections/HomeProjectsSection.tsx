@@ -1,3 +1,4 @@
+import HomeParagraph from "../HomeParagraph";
 import HomeProject from "../HomeProject";
 import HomeSectionTitle from "../HomeSectionTitle";
 import Image from "next/image";
@@ -32,12 +33,14 @@ export default function HomeProjectsSection() {
             }
             title="Harken"
           >
-            I'm currently building Harken with{" "}
-            <Link href="https://www.katherineliu.me/">Katherine</Link>.
-            Eventually, Harken will be the best way to remember what you learn.
-            We're currently finishing up the flashcard system, which is like a
-            better version of Anki. After that we'll build the online class
-            platform, which will be like Udemy and Anki combined.
+            <HomeParagraph style={{ marginTop: 0 }}>
+              I'm currently building Harken with{" "}
+              <Link href="https://www.katherineliu.me/">Katherine</Link>.
+              Eventually, Harken will be the best way to remember what you
+              learn. We're currently finishing up the flashcard system, which is
+              like a better version of Anki. After that we'll build the online
+              class platform, which will be like Udemy and Anki combined.
+            </HomeParagraph>
           </HomeProject>
           <HomeProject
             links={{
@@ -58,15 +61,17 @@ export default function HomeProjectsSection() {
             }
             title="Porta Penguin"
           >
-            If pooping on people like Captain Hook, Professor Umbridge, and Jar
-            Jar Binks sounds like a grand old time, this is the game for you.
-            It's built with Godot, an awesome game engine. I made some fairly
-            popular{" "}
-            <Link href="https://www.youtube.com/watch?v=3OpH4j4zpPU&t=433s">
-              YouTube tutorials
-            </Link>{" "}
-            about how to make this game, but still haven't finished the
-            series... maybe some day.
+            <HomeParagraph style={{ marginTop: 0 }}>
+              If pooping on people like Captain Hook, Professor Umbridge, and
+              Jar Jar Binks sounds like a grand old time, this is the game for
+              you. It's built with Godot, an awesome game engine. I made some
+              fairly popular{" "}
+              <Link href="https://www.youtube.com/watch?v=3OpH4j4zpPU&t=433s">
+                YouTube tutorials
+              </Link>{" "}
+              about how to make this game, but still haven't finished the
+              series... maybe some day.
+            </HomeParagraph>
           </HomeProject>
           <HomeProject
             links={{
@@ -91,11 +96,13 @@ export default function HomeProjectsSection() {
             }
             title="Online Omnichord"
           >
-            The first time I saw/heard the Omnichord, I immediately wanted one.
-            It's a truly unique instrument, and just plain fun to play. This
-            website brings the Omnichord experience online—you can play chords,
-            strum the harp, and even turn on rhythms. All the sounds were
-            sampled from my own Omnichord.
+            <HomeParagraph style={{ marginTop: 0 }}>
+              The first time I saw/heard the Omnichord, I immediately wanted
+              one. It's a truly unique instrument, and just plain fun to play.
+              This website brings the Omnichord experience online—you can play
+              chords, strum the harp, and even turn on rhythms. All the sounds
+              were sampled from my own Omnichord.
+            </HomeParagraph>
           </HomeProject>
           <HomeProject
             links={{
@@ -115,13 +122,15 @@ export default function HomeProjectsSection() {
             }
             title="Dino Brick"
           >
-            Chrome's no-WiFi dino game lazily ported to the terminal. I made
-            this game with{" "}
-            <Link href="https://samtay.github.io/posts/introduction-to-brick">
-              brick
-            </Link>
-            , a Haskell library for writing terminal applications. This was back
-            when I was really into Haskell.
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Chrome's no-WiFi dino game lazily ported to the terminal. I made
+              this game with{" "}
+              <Link href="https://samtay.github.io/posts/introduction-to-brick">
+                brick
+              </Link>
+              , a Haskell library for writing terminal applications. This was
+              back when I was really into Haskell.
+            </HomeParagraph>
           </HomeProject>
           <HomeProject
             links={{ project: "https://moodlists.com/" }}
@@ -143,12 +152,14 @@ export default function HomeProjectsSection() {
             }
             title="Moodlists"
           >
-            A place for sharing and discovering music based on specific moods.
-            Want to listen to some songs while{" "}
-            <Link href="https://moodlists.com/sitting-outside-on-a-bench-on-a-warm-and-sunny-day">
-              sitting outside, on a bench, on a warm and sunny day
-            </Link>
-            ? Yes? Well then, check it out!
+            <HomeParagraph style={{ marginTop: 0 }}>
+              A place for sharing and discovering music based on specific moods.
+              Want to listen to some songs while{" "}
+              <Link href="https://moodlists.com/sitting-outside-on-a-bench-on-a-warm-and-sunny-day">
+                sitting outside, on a bench, on a warm and sunny day
+              </Link>
+              ? Yes? Well then, check it out!
+            </HomeParagraph>
           </HomeProject>
           <HomeProject
             links={{
@@ -168,11 +179,13 @@ export default function HomeProjectsSection() {
             }
             title="Gradients"
           >
-            In college{" "}
-            <Link href="https://www.wampastompa.com/">my friend Matt</Link>{" "}
-            picked up a small CRT TV from a thrift store in San Diego, on which
-            he continually played these awesome looking gradients. This website
-            is a homage to that project.
+            <HomeParagraph style={{ marginTop: 0 }}>
+              In college{" "}
+              <Link href="https://www.wampastompa.com/">my friend Matt</Link>{" "}
+              picked up a small CRT TV from a thrift store in San Diego, on
+              which he continually played these awesome looking gradients. This
+              website is a homage to that project.
+            </HomeParagraph>
           </HomeProject>
           <HomeProject
             links={{
@@ -195,16 +208,18 @@ export default function HomeProjectsSection() {
             }
             title="Happy Things"
           >
-            I have a book called{" "}
-            <Link href="https://www.amazon.com/14-000-Things-Happy-About/dp/0761181806/ref=sr_1_5?dchild=1&keywords=happy+things&qid=1616900815&s=books&sr=1-5">
-              <em>14,000 Things to Be Happy About</em>
-            </Link>
-            . Every time you refresh this website, it displays three things from
-            that book. I built it using{" "}
-            <Link href="https://hackage.haskell.org/package/scotty">
-              scotty
-            </Link>
-            , a Haskell framework for building websites.
+            <HomeParagraph style={{ marginTop: 0 }}>
+              I have a book called{" "}
+              <Link href="https://www.amazon.com/14-000-Things-Happy-About/dp/0761181806/ref=sr_1_5?dchild=1&keywords=happy+things&qid=1616900815&s=books&sr=1-5">
+                <em>14,000 Things to Be Happy About</em>
+              </Link>
+              . Every time you refresh this website, it displays three things
+              from that book. I built it using{" "}
+              <Link href="https://hackage.haskell.org/package/scotty">
+                scotty
+              </Link>
+              , a Haskell framework for building websites.
+            </HomeParagraph>
           </HomeProject>
         </div>
       </div>

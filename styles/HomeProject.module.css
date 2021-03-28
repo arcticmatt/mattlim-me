@@ -1,5 +1,7 @@
 .container {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   margin-top: 50px;
   max-width: 1000px;
 }
@@ -9,11 +11,22 @@
 }
 
 .content {
-  margin-left: 32px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.description {
+  max-width: 600px;
 }
 
 .links {
+  color: #1f1f1f;
   display: flex;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
   margin-top: 12px;
 }
 
@@ -28,5 +41,19 @@
 }
 
 .title {
+  font-family: "Space Mono", sans-serif;
   font-size: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .content {
+    align-items: flex-start;
+    margin-left: 32px;
+    margin-top: 0;
+    text-align: start;
+  }
 }

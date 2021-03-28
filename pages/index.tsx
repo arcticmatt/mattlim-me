@@ -16,7 +16,7 @@ export default function Home() {
       <div>
         <HomeHeaderSectionk />
         <HomeAboutSection />
-        {/* <HomeProjectsSection /> */}
+        <HomeProjectsSection />
         {/* <HomeFavoritesSection /> */}
         {/* <HomeGradientSection /> */}
         {/* <HomeFooterSection /> */}

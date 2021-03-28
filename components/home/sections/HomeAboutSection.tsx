@@ -2,7 +2,6 @@ import HomeParagraph from "../HomeParagraph";
 import HomeSectionTitle from "../HomeSectionTitle";
 import Link from "../../Link";
 import containerStyles from "../../../styles/HomeContainer.module.css";
-import styles from "../../../styles/HomeAboutSection.module.css";
 
 export default function HomeAboutSection() {
   return (
