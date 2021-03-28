@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HomeAboutSection from "../components/home/sections/HomeAboutSection";
+import HomeGradientSection from "../components/home/sections/HomeGradientSection";
 import HomeHeaderSectionk from "../components/home/sections/HomeHeaderSection";
 import HomeProjectsSection from "../components/home/sections/HomeProjectsSection";
 
@@ -14,6 +15,7 @@ export default function Home() {
         <HomeHeaderSectionk />
         <HomeAboutSection />
         <HomeProjectsSection />
+        <HomeGradientSection />
       </div>
     </div>
   );
