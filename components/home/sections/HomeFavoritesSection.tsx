@@ -1,3 +1,4 @@
+import HomeParagraph from "../HomeParagraph";
 import HomeSectionTitle from "../HomeSectionTitle";
 import Link from "../../Link";
 import classes from "../../../lib/classes";
@@ -560,22 +561,24 @@ export default function HomeFavoritesSection() {
         )}
       >
         <HomeSectionTitle title="Favorites" />
-        <div className={styles.favoriteItemButtons}>
-          Here are some of my favorite{" "}
-          {intersperse(favoriteItemButtons, ", ", ", and ")}. Tweet me if you
-          have any recommendations.
-        </div>
-        <ul>
-          {FAVORITES[selectedFavorite].map((info) => (
-            <li>
-              <FavoriteItem
-                extraText={info.extraText}
-                link={info.link}
-                title={info.title}
-              />
-            </li>
-          ))}
-        </ul>
+        <HomeParagraph>
+          <div className={styles.favoriteItemButtons}>
+            Here are some of my favorite{" "}
+            {intersperse(favoriteItemButtons, ", ", ", and ")}. Tweet me if you
+            have any recommendations.
+          </div>
+          <ul>
+            {FAVORITES[selectedFavorite].map((info) => (
+              <li>
+                <FavoriteItem
+                  extraText={info.extraText}
+                  link={info.link}
+                  title={info.title}
+                />
+              </li>
+            ))}
+          </ul>
+        </HomeParagraph>
       </div>
     </div>
   );

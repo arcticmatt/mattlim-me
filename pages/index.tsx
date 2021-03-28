@@ -17,7 +17,7 @@ export default function Home() {
         <HomeHeaderSectionk />
         <HomeAboutSection />
         <HomeProjectsSection />
-        {/* <HomeFavoritesSection /> */}
+        <HomeFavoritesSection />
         {/* <HomeGradientSection /> */}
         {/* <HomeFooterSection /> */}
       </div>
