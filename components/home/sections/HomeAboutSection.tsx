@@ -20,7 +20,7 @@ export default function HomeAboutSection() {
             fun to work so close to the hardware. In addition to picking up cool
             new acronyms like &quot;MCU&quot; and &quot;SoC,&quot; I learned a
             lot about C++, TCP, FlatBuffers, and how painful it is to stand up a
-            BlueTooth stack. Before that I worked on integrity, building tooling
+            Bluetooth stack. Before that I worked on integrity, building tooling
             and infrastructure for the thousands of content moderators Facebook
             has around the world. My projects included building a system that
             maps decisions to actions (which is a lot more complicated than it
@@ -78,8 +78,10 @@ export default function HomeAboutSection() {
             improve—brain plasticity is an amazing thing.
           </HomeParagraph>
           <HomeParagraph>
-            In my spare time, I like to make stuff. I’ve tabled at LAZF and
-            SFZF—here are a{" "}
+            In my spare time, I like to make stuff. I’ve tabled at{" "}
+            <Link href="https://www.lazinefest.com/">LA Zine Fest</Link> and{" "}
+            <Link href="https://www.sfzinefest.org/">SF Zine Fest</Link>
+            —here are a{" "}
             <Link href="https://drive.google.com/file/d/1Xfc-c7M8YKoKNpUPDN6XpF0vxg21uUo5/view">
               couple of the t-shirts
             </Link>{" "}
