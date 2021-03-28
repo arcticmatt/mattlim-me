@@ -29,11 +29,12 @@ export default function HomeProjectsSection() {
             }
             title="Harken"
           >
-            Harken is still a work-in-progress. Eventually, Harken will be the
-            best way to remember what you learn. We're currently finishing up
-            the flashcard system, which is like a better version of Anki. After
-            that we'll build the online class platform, which will be like Udemy
-            and Anki combined.
+            I'm currently building Harken with{" "}
+            <Link href="https://www.katherineliu.me/">Katherine</Link>.
+            Eventually, Harken will be the best way to remember what you learn.
+            We're currently finishing up the flashcard system, which is like a
+            better version of Anki. After that we'll build the online class
+            platform, which will be like Udemy and Anki combined.
           </HomeProject>
           <HomeProject
             links={{
