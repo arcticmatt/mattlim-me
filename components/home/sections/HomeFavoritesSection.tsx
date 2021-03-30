@@ -396,6 +396,21 @@ const FAVORITES: {
       title: "Chong Qing Xiao Mian",
     },
     {
+      extraText: " (Oakland, California)",
+      link: "https://www.gumkuorestaurant.com/",
+      title: "Gum Kuo",
+    },
+    {
+      extraText: " (New York, New York)",
+      link: "https://www.gumkuorestaurant.com/",
+      title: "KazuNori",
+    },
+    {
+      extraText: " (Oakland, California)",
+      link: "http://shandongoakland.com/",
+      title: "Shan Dong",
+    },
+    {
       extraText: " (Pasadena, California)",
       link: "https://www.yelp.com/biz/tarantinos-pizzeria-pasadena",
       title: "Tarantino's Pizzeria",
@@ -409,6 +424,11 @@ const FAVORITES: {
       extraText: " (Pasadena, California)",
       link: "https://www.yelp.com/biz/top-restaurant-pasadena",
       title: "Top Restaurant",
+    },
+    {
+      extraText: " (Brooklyn, New York)",
+      link: "https://www.yelp.com/biz_photos/yun-nan-flavor-garden-brooklyn",
+      title: "Yu Nan Flavor Garden",
     },
   ],
   shows: [
@@ -445,7 +465,7 @@ const FAVORITES: {
       title: <em>Scrubs</em>,
     },
     {
-      link: "https://en.wikipedia.org/wiki/Samurai_Champloo",
+      link: "https://en.wikipedia.org/wiki/That_%2770s_Show",
       title: <em>That '70s Show</em>,
     },
   ],
