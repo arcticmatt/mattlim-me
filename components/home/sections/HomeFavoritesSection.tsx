@@ -402,7 +402,7 @@ const FAVORITES: {
     },
     {
       extraText: " (New York, New York)",
-      link: "https://www.gumkuorestaurant.com/",
+      link: "https://www.handrollbar.com/nomad/",
       title: "KazuNori",
     },
     {
