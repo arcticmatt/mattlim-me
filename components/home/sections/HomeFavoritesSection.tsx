@@ -26,48 +26,10 @@ const FAVORITES: {
 } = {
   books: [
     {
-      extraText: " by David Arora",
+      extraText: " by Jonathan Stroud",
       link:
-        "https://www.amazon.com/Mushrooms-Demystified-David-Arora/dp/0898151694",
-      title: <em>Mushrooms Demystified</em>,
-    },
-    {
-      extraText: " by Joseph Heller",
-      link: "https://www.amazon.com/Catch-22-Joseph-Heller/dp/0684833395",
-      title: <em>Catch-22</em>,
-    },
-    {
-      extraText: " by Kurt Vonnegut",
-      link: "https://www.amazon.com/Mother-Night-Kurt-Vonnegut/dp/0385334141",
-      title: <em>Mother Night</em>,
-    },
-    {
-      extraText: " by Ted Chiang",
-      link:
-        "https://www.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888",
-      title: <em>Exhalation</em>,
-    },
-    {
-      extraText: " by Italo Calvino",
-      link:
-        "https://www.amazon.com/Winters-Night-Traveler-Italo-Calvino/dp/0156439611",
-      title: <em>If on a Winter's Night a Traveler</em>,
-    },
-    {
-      extraText: " by J.K. Rowling",
-      link: "https://www.amazon.com/gp/bookseries/B00CJG28U8/",
-      title: <em>Harry Potter</em>,
-    },
-    {
-      extraText: " by Kazuo Ishiguro",
-      link: "https://www.amazon.com/Never-Let-Me-Kazuo-Ishiguro/dp/1400078776",
-      title: <em>Never Let Me Go</em>,
-    },
-    {
-      extraText: " by Alain de Botton",
-      link:
-        "https://www.amazon.com/Course-Love-Novel-Alain-Botton/dp/1501134515",
-      title: <em>The Course of Love</em>,
+        "https://www.amazon.com/Bartimaeus-3-book-boxed-set-Trilogy/dp/1423136829",
+      title: <em>The Bartimaeus Trilogy</em>,
     },
     {
       extraText: " by Norman Doidge",
@@ -76,35 +38,56 @@ const FAVORITES: {
       title: <em>The Brain that Changes Itself</em>,
     },
     {
-      extraText: " by Jonathan Stroud",
+      extraText: " by Joseph Heller",
+      link: "https://www.amazon.com/Catch-22-Joseph-Heller/dp/0684833395",
+      title: <em>Catch-22</em>,
+    },
+    {
+      extraText: " by Alain de Botton",
       link:
-        "https://www.amazon.com/Bartimaeus-3-book-boxed-set-Trilogy/dp/1423136829",
-      title: <em>The Bartimaeus Trilogy</em>,
+        "https://www.amazon.com/Course-Love-Novel-Alain-Botton/dp/1501134515",
+      title: <em>The Course of Love</em>,
+    },
+    {
+      extraText: " by Ted Chiang",
+      link:
+        "https://www.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888",
+      title: <em>Exhalation</em>,
+    },
+    {
+      extraText: " by J.K. Rowling",
+      link: "https://www.amazon.com/gp/bookseries/B00CJG28U8/",
+      title: <em>Harry Potter</em>,
+    },
+    {
+      extraText: " by Italo Calvino",
+      link:
+        "https://www.amazon.com/Winters-Night-Traveler-Italo-Calvino/dp/0156439611",
+      title: <em>If on a Winter's Night a Traveler</em>,
+    },
+    {
+      extraText: " by Kurt Vonnegut",
+      link: "https://www.amazon.com/Mother-Night-Kurt-Vonnegut/dp/0385334141",
+      title: <em>Mother Night</em>,
+    },
+    {
+      extraText: " by David Arora",
+      link:
+        "https://www.amazon.com/Mushrooms-Demystified-David-Arora/dp/0898151694",
+      title: <em>Mushrooms Demystified</em>,
+    },
+    {
+      extraText: " by Kazuo Ishiguro",
+      link: "https://www.amazon.com/Never-Let-Me-Kazuo-Ishiguro/dp/1400078776",
+      title: <em>Never Let Me Go</em>,
     },
   ],
   poems: [
-    {
-      extraText: " by John Ashberry",
-      link:
-        "https://www.poetryfoundation.org/poems/47769/and-ut-pictura-poesis-is-her-name",
-      title: '"And Ut Pictura Poesis Is Her Name"',
-    },
-    {
-      extraText: " by Sylvia Plath",
-      link:
-        "https://www.poetryfoundation.org/poems/49008/morning-song-56d22ab4a0cee",
-      title: '"Morning Song"',
-    },
     {
       extraText: " by Kathleen Fraser",
       link:
         "https://www.poetryfoundation.org/poetrymagazine/browse?contentId=29253",
       title: '"A Child Drowns in the Sea of Its Own Imagining"',
-    },
-    {
-      extraText: " by Anne Sexton",
-      link: "https://poets.org/poem/her-kind",
-      title: '"Her Kind"',
     },
     {
       extraText: " by John Berryman",
@@ -115,6 +98,23 @@ const FAVORITES: {
       extraText: " by Jane Hirshfield",
       link: "https://www.poetryfoundation.org/poems/52468/for-what-binds-us",
       title: '"For What Binds Us"',
+    },
+    {
+      extraText: " by Anne Sexton",
+      link: "https://poets.org/poem/her-kind",
+      title: '"Her Kind"',
+    },
+    {
+      extraText: " by Sylvia Plath",
+      link:
+        "https://www.poetryfoundation.org/poems/49008/morning-song-56d22ab4a0cee",
+      title: '"Morning Song"',
+    },
+    {
+      extraText: " by John Ashberry",
+      link:
+        "https://www.poetryfoundation.org/poems/47769/and-ut-pictura-poesis-is-her-name",
+      title: '"And Ut Pictura Poesis Is Her Name"',
     },
   ],
   artists: [
@@ -155,12 +155,12 @@ const FAVORITES: {
       title: "Streetlight Manifesto",
     },
     {
-      link: "https://www.taylorswift.com/",
-      title: "Taylor Swift",
-    },
-    {
       link: "https://en.wikipedia.org/wiki/The_Tallest_Man_on_Earth",
       title: "The Tallest Man on Earth",
+    },
+    {
+      link: "https://www.taylorswift.com/",
+      title: "Taylor Swift",
     },
   ],
   albums: [
@@ -401,9 +401,24 @@ const FAVORITES: {
       title: "Gum Kuo",
     },
     {
+      extraText: " (Oakland, California)",
+      link: "https://junespizza.com/",
+      title: "June's Pizza",
+    },
+    {
       extraText: " (New York, New York)",
       link: "https://www.handrollbar.com/nomad/",
       title: "KazuNori",
+    },
+    {
+      extraText: " (Cupertino, California)",
+      link: "https://phohanoicupertino.com/",
+      title: "Pho Ha Noi",
+    },
+    {
+      extraText: " (New York, New York)",
+      link: "https://www.rubirosanyc.com/",
+      title: "Rubirosa",
     },
     {
       extraText: " (Oakland, California)",
