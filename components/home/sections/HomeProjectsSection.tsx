@@ -17,6 +17,26 @@ export default function HomeProjectsSection() {
         <HomeSectionTitle title="Projects" />
         <div className={styles.projects}>
           <HomeProject
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{ backgroundColor: "#F5F1F1" }}
+              >
+                <Image
+                  className={styles.minymonLogo}
+                  height={44}
+                  src="/images/projects/minymon-logo.svg"
+                  width={206}
+                />
+              </div>
+            }
+            title="Minymon"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Coming soon :)
+            </HomeParagraph>
+          </HomeProject>
+          <HomeProject
             links={{ project: "https://harkenapp.com/" }}
             media={
               <div
@@ -42,6 +62,7 @@ export default function HomeProjectsSection() {
               like Udemy and Anki combined.
             </HomeParagraph>
           </HomeProject>
+
           <HomeProject
             links={{
               code: "https://github.com/arcticmatt/porta-penguin-godot",
