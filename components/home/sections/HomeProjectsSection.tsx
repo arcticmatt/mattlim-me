@@ -16,7 +16,7 @@ export default function HomeProjectsSection() {
       <div className={containerStyles.innerContainer}>
         <HomeSectionTitle title="Projects" />
         <div className={styles.projects}>
-          <HomeProject
+          {/* <HomeProject
             media={
               <div
                 className={styles.imageContainer}
@@ -35,7 +35,8 @@ export default function HomeProjectsSection() {
             <HomeParagraph style={{ marginTop: 0 }}>
               Coming soon :)
             </HomeParagraph>
-          </HomeProject>
+          </HomeProject> */}
+
           <HomeProject
             links={{ project: "https://harkenapp.com/" }}
             media={
@@ -54,12 +55,10 @@ export default function HomeProjectsSection() {
             title="Harken"
           >
             <HomeParagraph style={{ marginTop: 0 }}>
-              I'm currently building Harken with{" "}
+              I'm building Harken with{" "}
               <Link href="https://www.katherineliu.me/">Katherine</Link>. It's
-              the best way to remember what you learn. We're currently finishing
-              up the flashcard system, which is like a better version of Anki.
-              After that we'll build the online class platform, which will be
-              like Udemy and Anki combined.
+              the best way to remember what you learn (like a better version of
+              Anki).
             </HomeParagraph>
           </HomeProject>
 
