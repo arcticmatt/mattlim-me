@@ -10,21 +10,23 @@ export default function HomeAboutSection() {
         <HomeSectionTitle title="About" />
         <div>
           <HomeParagraph>
-            Hey, I’m Matt. I’m currently building new products at{" "}
-            <Link href="https://npe.fb.com/">Facebook NPE</Link>. Our team is
-            focused on making the world more equitable—you can check out our
-            website at <Link href="https://megapho.ne/">megapho.ne</Link>.
-            Previously, I worked on designing and implementing an IPC protocol
-            for AR/VR devices. Although I prefer working on products—something I
+            Hey, I’m Matt. I'm currently working on something new. Previously, I
+            built new products at{" "}
+            <Link href="https://npe.fb.com/">Facebook NPE</Link>. Our team
+            focused on making the world more equitable—you can check out the
+            website we built at{" "}
+            <Link href="https://linkstage.com/">linkstage.com</Link>. Before
+            that, I worked on designing and implementing an IPC protocol for
+            AR/VR devices. Although I prefer working on products—something I
             only really realized after doing systems software for a year—it was
             fun to work so close to the hardware. In addition to picking up cool
             new acronyms like &quot;MCU&quot; and &quot;SoC,&quot; I learned a
             lot about C++, TCP, FlatBuffers, and how painful it is to stand up a
-            Bluetooth stack. Before that I worked on integrity, building tooling
-            and infrastructure for the thousands of content moderators Facebook
-            has around the world. My projects included building a system that
-            maps decisions to actions (which is a lot more complicated than it
-            sounds) and making{" "}
+            Bluetooth stack. My first team at Facebook was content integrity,
+            where I built tooling and infrastructure for the thousands of
+            content moderators Facebook has around the world. My projects
+            included building a system that maps decisions to actions (which is
+            a lot more complicated than it sounds) and making{" "}
             <Link href="https://www.fastcompany.com/90367858/facebook-is-expanding-its-tools-to-make-content-moderation-less-toxic">
               content moderation a less harrowing experience
             </Link>
