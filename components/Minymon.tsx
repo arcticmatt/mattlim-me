@@ -19,7 +19,7 @@ export default function Minymon(): JSX.Element {
         enableFeed="true"
         enableTalk="true"
         idsString="NGY3MjI1YTktMmZjMS00ZmI0LTliODMtZGYyYzZiYzJmNjU4LnIzbWRpOFZzYUJ2ZkpEMjl2MDdtNQ=="
-        infoTitle="Hi, how can I help?"
+        infoTitle="Hi there!"
         theme="blue"
       >
         <minymon-question question="What is this thingy?" theme="blue">
