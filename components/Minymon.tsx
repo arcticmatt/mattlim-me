@@ -24,7 +24,7 @@ export default function Minymon(): JSX.Element {
       >
         <minymon-question question="What is this thingy?" theme="blue">
           <minymon-answer
-            answer="It's a minymon! Check it out at minymon.com."
+            answer={`It's a minymon! Check it out at <a href='https://minymon.com'>minymon.com</a>.`}
             question="What is this thingy?"
             theme="blue"
           ></minymon-answer>

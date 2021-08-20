@@ -16,26 +16,32 @@ export default function HomeProjectsSection() {
       <div className={containerStyles.innerContainer}>
         <HomeSectionTitle title="Projects" />
         <div className={styles.projects}>
-          {/* <HomeProject
+          <HomeProject
+            links={{ project: "https://www.minymon.com/" }}
             media={
               <div
                 className={styles.imageContainer}
-                style={{ backgroundColor: "#F5F1F1" }}
+                style={{ backgroundColor: "#CFFFF7" }}
               >
                 <Image
-                  className={styles.minymonLogo}
-                  height={44}
-                  src="/images/projects/minymon-logo.svg"
-                  width={206}
+                  height={160}
+                  src="/images/projects/minymon-preview.gif"
+                  width={160}
                 />
               </div>
             }
             title="Minymon"
           >
             <HomeParagraph style={{ marginTop: 0 }}>
-              Coming soon :)
+              Minymons are pets that live on your website and can 💬 answer
+              common questions, 👋 interact with your website visitors, and ✨
+              build your brand. Check it out on{" "}
+              <Link href="https://www.producthunt.com/posts/minymon">
+                Product Hunt
+              </Link>
+              , we were the #4 product of the day!
             </HomeParagraph>
-          </HomeProject> */}
+          </HomeProject>
 
           <HomeProject
             links={{ project: "https://harkenapp.com/" }}
@@ -55,7 +61,7 @@ export default function HomeProjectsSection() {
             title="Harken"
           >
             <HomeParagraph style={{ marginTop: 0 }}>
-              I'm building Harken with{" "}
+              I built Harken with{" "}
               <Link href="https://www.katherineliu.me/">Katherine</Link>. It's
               the best way to remember what you learn (like a better version of
               Anki).
