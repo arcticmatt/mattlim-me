@@ -38,7 +38,7 @@ export default function HomeProject({ children, links, media, title }: Props) {
           {links != null && links.code != null && (
             <div style={{ marginLeft: 12 }}>
               <Link
-                href={links.project}
+                href={links.code}
                 icon={
                   <FontAwesomeIcon icon={faCode} style={{ opacity: 0.7 }} />
                 }
