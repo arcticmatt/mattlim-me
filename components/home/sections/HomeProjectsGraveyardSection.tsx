@@ -12,7 +12,7 @@ export default function HomeProjectsGraveyardSection() {
     <div
       className={classes(styles.container, containerStyles.container)}
       id="projects"
-      style={{ backgroundColor: "#ede6ff" }}
+      style={{ backgroundColor: "#e6e6e6" }}
     >
       <div className={containerStyles.innerContainer}>
         <HomeSectionTitle title="Project Graveyard" />
