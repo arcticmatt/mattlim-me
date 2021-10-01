@@ -4,6 +4,7 @@ import HomeFavoritesSection from "../components/home/sections/HomeFavoritesSecti
 import HomeFooterSection from "../components/home/sections/HomeFooterSection";
 import HomeGradientSection from "../components/home/sections/HomeGradientSection";
 import HomeHeaderSection from "../components/home/sections/HomeHeaderSection";
+import HomeProjectsGraveyardSection from "../components/home/sections/HomeProjectsGraveyardSection";
 import HomeProjectsSection from "../components/home/sections/HomeProjectsSection";
 import Minymon from "../components/Minymon";
 
@@ -31,6 +32,7 @@ export default function Home() {
         <HomeHeaderSection />
         <HomeAboutSection />
         <HomeProjectsSection />
+        <HomeProjectsGraveyardSection />
         <HomeFavoritesSection />
         <HomeGradientSection />
         <HomeFooterSection />

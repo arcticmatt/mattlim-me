@@ -12,6 +12,7 @@ export default function HomeProjectsSection() {
     <div
       className={classes(styles.container, containerStyles.container)}
       id="projects"
+      style={{ backgroundColor: "#ffeef2" }}
     >
       <div className={containerStyles.innerContainer}>
         <HomeSectionTitle title="Projects" />
