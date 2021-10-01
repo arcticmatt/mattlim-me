@@ -17,6 +17,30 @@ export default function HomeProjectsSection() {
         <HomeSectionTitle title="Projects" />
         <div className={styles.projects}>
           <HomeProject
+            links={{ project: "https://www.niftypixels.io/" }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{ backgroundColor: "#FFF4EA" }}
+              >
+                <Image
+                  height={469}
+                  src="/images/projects/nifty-pixels.png"
+                  width={773}
+                />
+              </div>
+            }
+            title="Nifty Pixels"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Nifty Pixels is the fastest way to mint pixel art NFTs (only takes
+              a few seconds). It&apos;s currently still a work-in-progress, but
+              we&apos;re planning on shipping to the Polygon Mainnet soon (Fall
+              2021)!
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
             links={{ project: "https://www.minymon.com/" }}
             media={
               <div
