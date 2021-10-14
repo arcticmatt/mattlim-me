@@ -34,10 +34,14 @@ export default function HomeProjectsSection() {
             title="Nifty Pixels"
           >
             <HomeParagraph style={{ marginTop: 0 }}>
-              Nifty Pixels is the fastest way to mint pixel art NFTs (only takes
-              a few seconds). It&apos;s currently still a work-in-progress, but
-              we&apos;re planning on shipping to the Polygon Mainnet soon (Fall
-              2021)!
+              Nifty Pixels is an NFT marketplace that lets you create, buy, and
+              sell pixel art NFTs all in one place. You can create pixel art
+              using our built-in tools, mint your art as NFTs, and sell them on
+              our marketplace. We're making the world's{" "}
+              <Link href="https://opensea.io/collection/nifty-pixels-collection">
+                largest collection
+              </Link>{" "}
+              of original pixel art NFTs!
             </HomeParagraph>
           </HomeProject>
 

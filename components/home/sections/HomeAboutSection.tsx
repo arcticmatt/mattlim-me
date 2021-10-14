@@ -10,8 +10,8 @@ export default function HomeAboutSection() {
         <HomeSectionTitle title="About" />
         <div>
           <HomeParagraph>
-            Hey, I’m Matt. I'm currently working on something new. Previously, I
-            built new products at{" "}
+            Hey, I’m Matt. I'm currently building new stuff in web3 ✨.
+            Previously, I built products at{" "}
             <Link href="https://npe.fb.com/">Facebook NPE</Link>. Our team
             focused on making the world more equitable—you can check out the
             website we built at{" "}
