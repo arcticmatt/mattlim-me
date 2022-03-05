@@ -18,6 +18,104 @@ export default function HomeProjectsSection() {
         <HomeSectionTitle title="Projects" />
         <div className={styles.projects}>
           <HomeProject
+            links={{
+              project: "https://formfunction.xyz/",
+            }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{
+                  background:
+                    "linear-gradient(91.96deg,#4e48f2 17.52%,#8458ff 91.27%)",
+                }}
+              >
+                <Image
+                  height={70}
+                  src="/images/projects/ff-white.svg"
+                  width={70}
+                />
+              </div>
+            }
+            title="Formfunction"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Formfunction is the Solana NFT marketplace made for 1/1 art and
+              independent creators.
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
+            links={{
+              project: "https://www.niftygenerator.xyz/",
+            }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{
+                  background:
+                    "radial-gradient(82.95% 212.36% at 0 90.67%,#fff 0,#ffb4b4 34.74%,#86aef9 100%),#86aef9",
+                }}
+              >
+                <Image
+                  height={50}
+                  src="/images/projects/nifty-generator.svg"
+                  width={270}
+                />
+              </div>
+            }
+            title="Nifty Generator"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Nifty Generator lets you randomly generate NFT images with
+              different traits, complete with metadata—no coding needed.
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
+            links={{
+              project: "https://mycoverse.xyz/",
+            }}
+            media={
+              <div className={styles.imageContainer}>
+                <Image
+                  layout="fill"
+                  objectFit="cover"
+                  src="/images/projects/mycoverse.jpg"
+                />
+              </div>
+            }
+            title="Mycoverse"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              The Mycoverse is a collection of 999 mushroom-inspired NFTs on the
+              Solana blockchain.
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
+            links={{
+              project:
+                "https://opensea.io/collection/psychedelics-anonymous-genesis",
+            }}
+            media={
+              <div className={styles.imageContainer}>
+                <Image
+                  layout="fill"
+                  objectFit="cover"
+                  src="/images/projects/pa.png"
+                />
+              </div>
+            }
+            title="Psychedelics Anonymous"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Developed four ERC-721 smart contracts for the Psychedelics
+              Anonymous NFT project. The four collections sold out in ~1 week
+              and generated ~$10,000,000.
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
             links={{ project: "https://www.niftypixels.io/" }}
             media={
               <div

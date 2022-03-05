@@ -10,8 +10,13 @@ export default function HomeAboutSection() {
         <HomeSectionTitle title="About" />
         <div>
           <HomeParagraph>
-            Hey, I’m Matt. I'm currently building new stuff in web3 ✨.
-            Previously, I built products at{" "}
+            Hey, I’m Matt. I'm currently working on{" "}
+            <Link href="https://formfunction.xyz/">Formfunction</Link>, a Solana
+            NFT marketplace made for 1/1 art and independent creators (we're{" "}
+            <Link href="https://formfunction.notion.site/Join-Formfunction-4d162e0369174c6c8a69b0653a7e594b">
+              hiring
+            </Link>
+            !). Previously, I built products at{" "}
             <Link href="https://npe.fb.com/">Facebook NPE</Link>. Our team
             focused on making the world more equitable—you can check out the
             website we built at{" "}
