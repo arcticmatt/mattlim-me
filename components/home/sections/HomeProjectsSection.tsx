@@ -46,6 +46,37 @@ export default function HomeProjectsSection() {
 
           <HomeProject
             links={{
+              project: "https://ghostwriter.boo/",
+            }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{
+                  backgroundColor: "#F5F5F5",
+                }}
+              >
+                <Image
+                  height={18}
+                  src="/images/projects/ghostwriter.svg"
+                  width={176}
+                />
+              </div>
+            }
+            title="Ghostwriter"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Ghostwriter is a small project I made with my friend{" "}
+              <Link href="https://mattgabor.me/">Matt Gabor</Link> as a way to
+              play around with OpenAI and Remix. You can check out our{" "}
+              <Link href="https://pencilflip.medium.com/first-impressions-of-the-remix-web-framework-1c25ec6f3abf">
+                thoughts on Remix here
+              </Link>
+              .
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
+            links={{
               project: "https://www.niftygenerator.xyz/",
             }}
             media={
