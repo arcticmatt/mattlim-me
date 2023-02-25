@@ -30,6 +30,7 @@ export default function HomeProjectsSection() {
                 }}
               >
                 <Image
+                  alt="Formfunction"
                   height={70}
                   src="/images/projects/ff-white.svg"
                   width={70}
@@ -56,6 +57,7 @@ export default function HomeProjectsSection() {
                 }}
               >
                 <Image
+                  alt="Ghostwriter"
                   height={18}
                   src="/images/projects/ghostwriter.svg"
                   width={176}
@@ -88,6 +90,7 @@ export default function HomeProjectsSection() {
                 }}
               >
                 <Image
+                  alt="Nifty Generator"
                   height={50}
                   src="/images/projects/nifty-generator.svg"
                   width={270}
@@ -109,6 +112,7 @@ export default function HomeProjectsSection() {
             media={
               <div className={styles.imageContainer}>
                 <Image
+                  alt="Mycoverse"
                   layout="fill"
                   objectFit="cover"
                   src="/images/projects/mycoverse.jpg"
@@ -131,6 +135,7 @@ export default function HomeProjectsSection() {
             media={
               <div className={styles.imageContainer}>
                 <Image
+                  alt="Psychedelics Anonymous"
                   layout="fill"
                   objectFit="cover"
                   src="/images/projects/pa.png"
@@ -154,8 +159,12 @@ export default function HomeProjectsSection() {
                 style={{ backgroundColor: "#FFF4EA" }}
               >
                 <Image
+                  alt="Nifty Pixels"
                   height={469}
                   src="/images/projects/nifty-pixels.png"
+                  style={{
+                    objectFit: "contain",
+                  }}
                   width={773}
                 />
               </div>
@@ -182,6 +191,7 @@ export default function HomeProjectsSection() {
                 style={{ backgroundColor: "#CFFFF7" }}
               >
                 <Image
+                  alt="Minymon"
                   height={160}
                   src="/images/projects/minymon-preview.gif"
                   width={160}
@@ -209,6 +219,7 @@ export default function HomeProjectsSection() {
                 style={{ backgroundColor: "#5c61df" }}
               >
                 <Image
+                  alt="Harken"
                   className={styles.harken}
                   height={51}
                   src="/images/projects/harken.svg"
@@ -235,6 +246,7 @@ export default function HomeProjectsSection() {
             media={
               <div className={styles.imageContainer}>
                 <Image
+                  alt="Porta Penguin"
                   className={styles.image}
                   layout="fill"
                   objectFit="cover"
@@ -269,6 +281,7 @@ export default function HomeProjectsSection() {
               >
                 <div className={styles.imageContainerSmall}>
                   <Image
+                    alt="Online Omnichord"
                     className={styles.image}
                     layout="fill"
                     objectFit="contain"
@@ -296,6 +309,7 @@ export default function HomeProjectsSection() {
             media={
               <div className={styles.imageContainer}>
                 <Image
+                  alt="Dino Brick"
                   className={styles.image}
                   layout="fill"
                   objectFit="cover"
@@ -325,6 +339,7 @@ export default function HomeProjectsSection() {
               >
                 <div className={styles.imageContainerSmall}>
                   <Image
+                    alt="Moodlists"
                     className={styles.image}
                     layout="fill"
                     objectFit="contain"
@@ -353,6 +368,7 @@ export default function HomeProjectsSection() {
             media={
               <div className={styles.imageContainer}>
                 <Image
+                  alt="Gradients"
                   className={styles.image}
                   layout="fill"
                   objectFit="cover"
@@ -382,6 +398,7 @@ export default function HomeProjectsSection() {
                 style={{ backgroundColor: "#F9EDE5" }}
               >
                 <Image
+                  alt="Happy Things"
                   className={styles.image}
                   layout="fill"
                   objectFit="cover"
