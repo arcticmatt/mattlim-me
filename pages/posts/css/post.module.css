@@ -61,6 +61,12 @@
   font-family: "Work Sans", sans-serif;
   font-size: 22px;
   font-weight: 400;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+
+.content p {
+  margin-top: 12px;
 }
 
 .metadata {
