@@ -24,10 +24,12 @@ export function getSortedPostsData() {
     return {
       id,
       ...(matterResult.data as {
+        category: string;
         date: string;
         summary: string;
         title: string;
       }),
+      tags: matterResult.data.tags.split(",").map((tag) => tag.trim()),
     };
   });
   // Sort posts by date

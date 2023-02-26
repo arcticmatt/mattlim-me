@@ -1,3 +1,43 @@
+.button {
+  background-color: #dff5fc;
+  border: 2px solid gray;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  padding: 8px 12px;
+
+  transition: background-color 300ms;
+}
+
+.button:active, .category:active {
+  background-color: #bee2ed;
+  cursor: pointer;
+}
+
+.buttons {
+  column-gap: 24px;
+  display: flex;
+}
+
+.buttons, .posts {
+  margin-top: 32px;
+}
+
+.categories {
+  column-gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  row-gap: 12px;
+}
+
+.category {
+  background-color: #dff5fc;
+  border: 2px solid gray;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  padding: 4px 8px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -21,7 +61,6 @@
 .posts {
   display: flex;
   flex-direction: column;
-  margin-top: 32px;
   row-gap: 32px;
 }
 
@@ -33,5 +72,12 @@
 @media only screen and (max-width: 768px) {
   .container {
     padding-top: 32px;
+  }
+}
+
+@media (hover: hover) {
+  .button:hover, .category:hover {
+    background-color: #bee2ed;
+    cursor: pointer;
   }
 }
