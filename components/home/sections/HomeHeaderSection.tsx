@@ -23,6 +23,7 @@ export default function HomeHeaderSectionk() {
               &#x1f4bb;
               <br /> Check out my <Link href="#favorites">favorites</Link>{" "}
               &#127812;
+              <br /> I occasionally <Link href="/blog">blog</Link> ✍️
             </div>
           </div>
           <div className={styles.socialLinks}>
