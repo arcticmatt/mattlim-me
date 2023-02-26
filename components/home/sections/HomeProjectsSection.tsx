@@ -233,7 +233,11 @@ export default function HomeProjectsSection() {
               I built Harken with{" "}
               <Link href="https://www.katherineliu.me/">Katherine</Link>. It's
               the best way to remember what you learn (like a better version of
-              Anki).
+              Anki).{" "}
+              <i>
+                I'm currently rebuilding this project, so this link is
+                broken—check back later!
+              </i>
             </HomeParagraph>
           </HomeProject>
 

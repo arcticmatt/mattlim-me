@@ -38,6 +38,7 @@ export default function HomeProjectsGraveyardSection() {
                 style={{ backgroundColor: "#FAF5F3" }}
               >
                 <Image
+                  alt="Folio"
                   height={160}
                   src="/images/projects/folio.png"
                   width={160}
@@ -63,6 +64,7 @@ export default function HomeProjectsGraveyardSection() {
                 style={{ backgroundColor: "#E2FFEE" }}
               >
                 <Image
+                  alt="Wizards"
                   height={65}
                   src="/images/projects/wizards.svg"
                   width={190}
