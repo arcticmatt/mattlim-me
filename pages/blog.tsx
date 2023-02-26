@@ -59,7 +59,6 @@ export default function Blog({
   const [isTagsShown, setIsTagsShown] = useState(false);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
-  console.log(allPostsData);
   return (
     <div className={styles.container}>
       <div>
