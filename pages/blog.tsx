@@ -32,7 +32,6 @@ export default function Blog({
     <div className={styles.container}>
       <div>
         <ResponsiveContainer>
-          <HomeSectionTitle title="Blog" />
           <HomeParagraph className={styles.description}>
             Welcome to my collection of (often rambling) random thoughts and
             opinions, mostly about various things I've read. If anything here

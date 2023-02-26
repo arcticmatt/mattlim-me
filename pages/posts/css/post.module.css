@@ -92,3 +92,9 @@
     transition: background-color 300ms;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-top: 32px;
+  }
+}
