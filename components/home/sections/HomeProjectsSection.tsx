@@ -46,34 +46,62 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
-            links={{
-              project: "https://ghostwriter.boo/",
-            }}
+            links={{ project: "https://www.minymon.com/" }}
             media={
               <div
                 className={styles.imageContainer}
-                style={{
-                  backgroundColor: "#F5F5F5",
-                }}
+                style={{ backgroundColor: "#CFFFF7" }}
               >
                 <Image
-                  alt="Ghostwriter"
-                  height={18}
-                  src="/images/projects/ghostwriter.svg"
-                  width={176}
+                  alt="Minymon"
+                  height={160}
+                  src="/images/projects/minymon-preview.gif"
+                  width={160}
                 />
               </div>
             }
-            title="Ghostwriter"
+            title="Minymon"
           >
             <HomeParagraph style={{ marginTop: 0 }}>
-              Ghostwriter is a small project I made with my friend{" "}
-              <Link href="https://mattgabor.me/">Matt Gabor</Link> as a way to
-              play around with OpenAI and Remix. You can check out our{" "}
-              <Link href="https://pencilflip.medium.com/first-impressions-of-the-remix-web-framework-1c25ec6f3abf">
-                thoughts on Remix here
+              Minymons are pets that live on your website and can 💬 answer
+              common questions, 👋 interact with your website visitors, and ✨
+              build your brand. Check it out on{" "}
+              <Link href="https://www.producthunt.com/posts/minymon">
+                Product Hunt
               </Link>
-              .
+              , we were the #4 product of the day!
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
+            links={{ project: "https://harkenapp.com/" }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{ backgroundColor: "#5c61df" }}
+              >
+                <Image
+                  alt="Harken"
+                  className={styles.harken}
+                  height={51}
+                  src="/images/projects/harken.svg"
+                  width={160}
+                />
+              </div>
+            }
+            title="Harken"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              I built Harken with{" "}
+              <Link href="https://www.katherineliu.me/">Katherine</Link>. It's
+              the best way to remember what you learn (like a better version of
+              Anki). In addition to the main product, we also built the{" "}
+              <Link href="https://chrome.google.com/webstore/detail/harken/dicbhciopdcalpokgbchgbnoaadbjdfd?hl=en&authuser=0">
+                Harken Chrome extension
+              </Link>
+              . The extension lets you quiz yourself on content from any article
+              on the internet by using GPT-4 to generate questions with a single
+              click.
             </HomeParagraph>
           </HomeProject>
 
@@ -184,64 +212,6 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
-            links={{ project: "https://www.minymon.com/" }}
-            media={
-              <div
-                className={styles.imageContainer}
-                style={{ backgroundColor: "#CFFFF7" }}
-              >
-                <Image
-                  alt="Minymon"
-                  height={160}
-                  src="/images/projects/minymon-preview.gif"
-                  width={160}
-                />
-              </div>
-            }
-            title="Minymon"
-          >
-            <HomeParagraph style={{ marginTop: 0 }}>
-              Minymons are pets that live on your website and can 💬 answer
-              common questions, 👋 interact with your website visitors, and ✨
-              build your brand. Check it out on{" "}
-              <Link href="https://www.producthunt.com/posts/minymon">
-                Product Hunt
-              </Link>
-              , we were the #4 product of the day!
-            </HomeParagraph>
-          </HomeProject>
-
-          <HomeProject
-            links={{ project: "https://harkenapp.com/" }}
-            media={
-              <div
-                className={styles.imageContainer}
-                style={{ backgroundColor: "#5c61df" }}
-              >
-                <Image
-                  alt="Harken"
-                  className={styles.harken}
-                  height={51}
-                  src="/images/projects/harken.svg"
-                  width={160}
-                />
-              </div>
-            }
-            title="Harken"
-          >
-            <HomeParagraph style={{ marginTop: 0 }}>
-              I built Harken with{" "}
-              <Link href="https://www.katherineliu.me/">Katherine</Link>. It's
-              the best way to remember what you learn (like a better version of
-              Anki).{" "}
-              <i>
-                I'm currently rebuilding this project, so this link is
-                broken—check back later!
-              </i>
-            </HomeParagraph>
-          </HomeProject>
-
-          <HomeProject
             links={{
               code: "https://github.com/arcticmatt/porta-penguin-godot",
               project:
@@ -334,6 +304,39 @@ export default function HomeProjectsSection() {
               back when I was really into Haskell.
             </HomeParagraph>
           </HomeProject>
+
+          <HomeProject
+            links={{
+              project: "https://ghostwriter.boo/",
+            }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{
+                  backgroundColor: "#F5F5F5",
+                }}
+              >
+                <Image
+                  alt="Ghostwriter"
+                  height={18}
+                  src="/images/projects/ghostwriter.svg"
+                  width={176}
+                />
+              </div>
+            }
+            title="Ghostwriter"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Ghostwriter is a small project I made with my friend{" "}
+              <Link href="https://mattgabor.me/">Matt Gabor</Link> as a way to
+              play around with OpenAI and Remix. You can check out our{" "}
+              <Link href="https://pencilflip.medium.com/first-impressions-of-the-remix-web-framework-1c25ec6f3abf">
+                thoughts on Remix here
+              </Link>
+              .
+            </HomeParagraph>
+          </HomeProject>
+
           <HomeProject
             links={{ project: "https://moodlists.com/" }}
             media={
