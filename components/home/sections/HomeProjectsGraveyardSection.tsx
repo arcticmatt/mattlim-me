@@ -31,6 +31,31 @@ export default function HomeProjectsGraveyardSection() {
         </HomeParagraph>
         <div className={styles.projects}>
           <HomeProject
+            links={{ project: "https://www.creatorinbox.com/" }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{ backgroundColor: "#eaffff" }}
+              >
+                <Image
+                  alt="Creator Inbox"
+                  height={28.635}
+                  src="/images/projects/creator-inbox-logo.svg"
+                  width={217.5}
+                />
+              </div>
+            }
+            title="Creator Inbox"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Creator Inbox was a tool that connected people with experienced
+              creators. Beginners could get targeted, personal feedback, and
+              experts could get paid for their expertise. We launched a beta
+              version of the product, but it didn't gain traction.
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
             links={{ project: "https://www.withfolio.com/" }}
             media={
               <div
