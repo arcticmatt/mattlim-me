@@ -54,7 +54,7 @@ export default function HomeAboutSection() {
               Caltech’s poetry award
             </Link>{" "}
             with a poem called{" "}
-            <Link href="http://blog.pencilflip.com/encounter.html">
+            <Link href="https://www.mattlim.me/posts/encounter">
               "Encounter"
             </Link>
             , which means that English minor was <em>definitely</em> worth it.
@@ -95,18 +95,15 @@ export default function HomeAboutSection() {
             use Ableton Live, in case you’re curious. Occasionally I write
             things; my <Link href="https://pencilflip.medium.com/">Medium</Link>{" "}
             has more technical content, and I try to write a{" "}
-            <Link href="http://blog.pencilflip.com/life-in-haiku.html">
+            <Link href="https://www.mattlim.me/posts/life-in-haiku">
               daily haiku
             </Link>{" "}
-            and{" "}
-            <Link href="http://blog.pencilflip.com/today-i-learned.html">
-              TIL
-            </Link>{" "}
-            on my personal blog. Some of my other hobbies are bouldering,
-            playing tennis, foraging for mushrooms, and playing games on my
-            Nintendo Switch and Oculus Quest (Echo VR is awesome). I also read a
-            lot—some of my <Link href="#favorites">favorite books</Link> are
-            listed down below.
+            and <Link href="https://www.mattlim.me/posts/til">TIL</Link> on my
+            personal blog. Some of my other hobbies are bouldering, playing
+            tennis, foraging for mushrooms, and playing games on my Nintendo
+            Switch and Oculus Quest (Echo VR is awesome). I also read a lot—some
+            of my <Link href="#favorites">favorite books</Link> are listed down
+            below.
           </HomeParagraph>
         </div>
       </div>
