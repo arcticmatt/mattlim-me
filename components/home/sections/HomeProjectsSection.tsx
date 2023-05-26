@@ -19,7 +19,8 @@ export default function HomeProjectsSection() {
         <div className={styles.projects}>
           <HomeProject
             links={{
-              project: "https://formfunction.xyz/",
+              project:
+                "https://github.com/formfunction-hq/formfunction-monorepo",
             }}
             media={
               <div

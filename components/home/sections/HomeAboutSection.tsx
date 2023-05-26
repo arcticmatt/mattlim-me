@@ -11,9 +11,11 @@ export default function HomeAboutSection() {
         <div>
           <HomeParagraph>
             Hey, I’m Matt. I'm currently working on{" "}
-            <Link href="https://formfunction.xyz/">Formfunction</Link>, a Solana
-            NFT marketplace made for 1/1 art and independent creators.
-            Previously, I built products at{" "}
+            <Link href="https://github.com/formfunction-hq/formfunction-monorepo">
+              Formfunction
+            </Link>
+            , a Solana NFT marketplace made for 1/1 art and independent
+            creators. Previously, I built products at{" "}
             <Link href="https://npe.fb.com/">Facebook NPE</Link>. Our team
             focused on making the world more equitable—you can check out the
             website we built at{" "}
