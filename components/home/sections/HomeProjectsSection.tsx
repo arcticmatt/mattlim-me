@@ -18,6 +18,7 @@ export default function HomeProjectsSection() {
         <HomeSectionTitle title="Projects" />
         <div className={styles.projects}>
           <HomeProject
+            date="2022-2023"
             links={{
               project:
                 "https://github.com/formfunction-hq/formfunction-monorepo",
@@ -47,6 +48,7 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2021"
             links={{ project: "https://www.minymon.com/" }}
             media={
               <div
@@ -75,6 +77,7 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2023"
             links={{ project: "https://harkenapp.com/" }}
             media={
               <div
@@ -107,6 +110,7 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2021"
             links={{
               project: "https://www.niftygenerator.xyz/",
             }}
@@ -135,6 +139,7 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2021"
             links={{
               project: "https://mycoverse.xyz/",
             }}
@@ -157,6 +162,7 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2021"
             links={{
               project:
                 "https://opensea.io/collection/psychedelics-anonymous-genesis",
@@ -181,6 +187,7 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2021"
             links={{ project: "https://www.niftypixels.io/" }}
             media={
               <div
@@ -213,6 +220,7 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2020"
             links={{
               code: "https://github.com/arcticmatt/porta-penguin-godot",
               project:
@@ -245,6 +253,7 @@ export default function HomeProjectsSection() {
             </HomeParagraph>
           </HomeProject>
           <HomeProject
+            date="2017"
             links={{
               code: "https://github.com/arcticmatt/online-omnichord",
               project: "http://www.onlineomnichord.com/",
@@ -277,6 +286,7 @@ export default function HomeProjectsSection() {
             </HomeParagraph>
           </HomeProject>
           <HomeProject
+            date="2017"
             links={{
               code: "https://github.com/arcticmatt/dino-brick",
               project: "https://github.com/arcticmatt/dino-brick",
@@ -307,6 +317,7 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2023"
             links={{
               project: "https://ghostwriter.boo/",
             }}
@@ -339,6 +350,7 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2020"
             links={{ project: "https://moodlists.com/" }}
             media={
               <div
@@ -369,6 +381,7 @@ export default function HomeProjectsSection() {
             </HomeParagraph>
           </HomeProject>
           <HomeProject
+            date="2017"
             links={{
               code: "https://github.com/arcticmatt/gradients",
               project: "https://arcticmatt.github.io/gradients/",
@@ -396,6 +409,7 @@ export default function HomeProjectsSection() {
             </HomeParagraph>
           </HomeProject>
           <HomeProject
+            date="2017"
             links={{
               code: "https://github.com/arcticmatt/happy-site",
               project: "http://www.happythings.me/",

@@ -31,6 +31,7 @@ export default function HomeProjectsGraveyardSection() {
         </HomeParagraph>
         <div className={styles.projects}>
           <HomeProject
+            date="2021"
             links={{ project: "https://www.creatorinbox.com/" }}
             media={
               <div
@@ -56,6 +57,7 @@ export default function HomeProjectsGraveyardSection() {
           </HomeProject>
 
           <HomeProject
+            date="2021"
             links={{ project: "https://www.withfolio.com/" }}
             media={
               <div
@@ -82,6 +84,7 @@ export default function HomeProjectsGraveyardSection() {
           </HomeProject>
 
           <HomeProject
+            date="2021"
             links={{ project: "https://www.withwizards.com/" }}
             media={
               <div

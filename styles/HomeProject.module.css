@@ -18,7 +18,14 @@
   text-align: center;
 }
 
+.date {
+  color: #808080;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+}
+
 .description {
+  margin-top: 4px;
   max-width: 600px;
 }
 

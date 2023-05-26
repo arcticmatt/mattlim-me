@@ -81,6 +81,11 @@ const FAVORITES: {
       link: "https://www.amazon.com/Never-Let-Me-Kazuo-Ishiguro/dp/1400078776",
       title: <em>Never Let Me Go</em>,
     },
+    {
+      extraText: " by Greg Egan",
+      link: "https://www.amazon.com/Diaspora-Greg-Egan/dp/1511399481",
+      title: <em>Diaspora</em>,
+    },
   ],
   poems: [
     {

@@ -6,6 +6,7 @@ import styles from "../../styles/HomeProject.module.css";
 
 type Props = {
   children: any;
+  date?: string;
   links?: {
     code?: string;
     project: string;
@@ -14,7 +15,13 @@ type Props = {
   title: string;
 };
 
-export default function HomeProject({ children, links, media, title }: Props) {
+export default function HomeProject({
+  children,
+  date,
+  links,
+  media,
+  title,
+}: Props) {
   return (
     <div className={styles.container}>
       <a
@@ -25,6 +32,7 @@ export default function HomeProject({ children, links, media, title }: Props) {
       </a>
       <div className={styles.content}>
         <div className={styles.title}>{title}</div>
+        {date && <div className={styles.date}>{date}</div>}
         <div className={styles.description}>{children}</div>
         <div className={styles.links}>
           {links != null && (
