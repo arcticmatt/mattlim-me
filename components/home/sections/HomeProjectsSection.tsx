@@ -187,6 +187,36 @@ export default function HomeProjectsSection() {
           </HomeProject>
 
           <HomeProject
+            date="2022"
+            links={{
+              code: "https://github.com/orgs/hammyflip/repositories",
+              project: "https://hammyflip.com/",
+            }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{ backgroundColor: "#f7f2ee" }}
+              >
+                <Image
+                  alt="Hammyflip"
+                  height={239.91}
+                  src="/images/projects/hammyflip.gif"
+                  style={{
+                    objectFit: "contain",
+                  }}
+                  width={547}
+                />
+              </div>
+            }
+            title="Hammyflip"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Hammyflip is a simple coin flip game that runs on Solana devnet.
+              If you win, you receive double the SOL you initally bet!
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
             date="2021"
             links={{ project: "https://www.niftypixels.io/" }}
             media={
