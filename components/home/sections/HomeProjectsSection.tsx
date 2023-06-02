@@ -112,58 +112,6 @@ export default function HomeProjectsSection() {
           <HomeProject
             date="2021"
             links={{
-              project: "https://www.niftygenerator.xyz/",
-            }}
-            media={
-              <div
-                className={styles.imageContainer}
-                style={{
-                  background:
-                    "radial-gradient(82.95% 212.36% at 0 90.67%,#fff 0,#ffb4b4 34.74%,#86aef9 100%),#86aef9",
-                }}
-              >
-                <Image
-                  alt="Nifty Generator"
-                  height={50}
-                  src="/images/projects/nifty-generator.svg"
-                  width={270}
-                />
-              </div>
-            }
-            title="Nifty Generator"
-          >
-            <HomeParagraph style={{ marginTop: 0 }}>
-              Nifty Generator lets you randomly generate NFT images with
-              different traits, complete with metadata—no coding needed.
-            </HomeParagraph>
-          </HomeProject>
-
-          <HomeProject
-            date="2021"
-            links={{
-              project: "https://mycoverse.xyz/",
-            }}
-            media={
-              <div className={styles.imageContainer}>
-                <Image
-                  alt="Mycoverse"
-                  layout="fill"
-                  objectFit="cover"
-                  src="/images/projects/mycoverse.jpg"
-                />
-              </div>
-            }
-            title="Mycoverse"
-          >
-            <HomeParagraph style={{ marginTop: 0 }}>
-              The Mycoverse is a collection of 999 mushroom-inspired NFTs on the
-              Solana blockchain.
-            </HomeParagraph>
-          </HomeProject>
-
-          <HomeProject
-            date="2021"
-            links={{
               project:
                 "https://opensea.io/collection/psychedelics-anonymous-genesis",
             }}
@@ -183,6 +131,35 @@ export default function HomeProjectsSection() {
               Developed four ERC-721 smart contracts for the Psychedelics
               Anonymous NFT project. The four collections sold out in ~1 week
               and generated ~$10,000,000.
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
+            date="2023"
+            links={{
+              project: "https://katmattwedding.com/",
+            }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{ backgroundColor: "#f7f2ee" }}
+              >
+                <Image
+                  alt="Wedding Website"
+                  height={1888}
+                  src="/images/projects/wedding-website.png"
+                  style={{
+                    objectFit: "contain",
+                  }}
+                  width={2984}
+                />
+              </div>
+            }
+            title="Wedding Invite Game"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              A small mini-game created for my own wedding as an alternative to
+              paper invitations. Built with React, TypeScript, and CSS.
             </HomeParagraph>
           </HomeProject>
 
@@ -282,6 +259,7 @@ export default function HomeProjectsSection() {
               series... maybe some day.
             </HomeParagraph>
           </HomeProject>
+
           <HomeProject
             date="2017"
             links={{
@@ -315,6 +293,7 @@ export default function HomeProjectsSection() {
               were sampled from my own Omnichord.
             </HomeParagraph>
           </HomeProject>
+
           <HomeProject
             date="2017"
             links={{
@@ -343,6 +322,58 @@ export default function HomeProjectsSection() {
               </Link>
               , a Haskell library for writing terminal applications. This was
               back when I was really into Haskell.
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
+            date="2021"
+            links={{
+              project: "https://www.niftygenerator.xyz/",
+            }}
+            media={
+              <div
+                className={styles.imageContainer}
+                style={{
+                  background:
+                    "radial-gradient(82.95% 212.36% at 0 90.67%,#fff 0,#ffb4b4 34.74%,#86aef9 100%),#86aef9",
+                }}
+              >
+                <Image
+                  alt="Nifty Generator"
+                  height={50}
+                  src="/images/projects/nifty-generator.svg"
+                  width={270}
+                />
+              </div>
+            }
+            title="Nifty Generator"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              Nifty Generator lets you randomly generate NFT images with
+              different traits, complete with metadata—no coding needed.
+            </HomeParagraph>
+          </HomeProject>
+
+          <HomeProject
+            date="2021"
+            links={{
+              project: "https://mycoverse.xyz/",
+            }}
+            media={
+              <div className={styles.imageContainer}>
+                <Image
+                  alt="Mycoverse"
+                  layout="fill"
+                  objectFit="cover"
+                  src="/images/projects/mycoverse.jpg"
+                />
+              </div>
+            }
+            title="Mycoverse"
+          >
+            <HomeParagraph style={{ marginTop: 0 }}>
+              The Mycoverse is a collection of 999 mushroom-inspired NFTs on the
+              Solana blockchain.
             </HomeParagraph>
           </HomeProject>
 
