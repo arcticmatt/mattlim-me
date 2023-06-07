@@ -17,10 +17,7 @@ type Props = {
 export default function HomeSocialLinks({ color }: Props) {
   return (
     <div className={styles.container}>
-      <a
-        className={styles.link}
-        href="https://github.com/arcticmatt/Resume/blob/master/md/resume.pdf"
-      >
+      <a className={styles.link} href="/resume.pdf">
         <FontAwesomeIcon color={color} icon={faFileAlt} />
       </a>
       <a className={styles.link} href="https://pencilflip.medium.com/">
