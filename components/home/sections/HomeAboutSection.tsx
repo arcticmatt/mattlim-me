@@ -10,27 +10,30 @@ export default function HomeAboutSection() {
         <HomeSectionTitle title="About" />
         <div>
           <HomeParagraph>
-            Hey, I’m Matt. I'm currently working on{" "}
+            Hey, I’m Matt. I'm currently on the{" "}
+            <Link href="https://openai.com/careers/software-engineer-leverage-engineering">
+              Leverage Engineering
+            </Link>{" "}
+            team at OpenAI, working on scaling the company by using our models
+            (we're hiring!). Before this, I co-founded a company called{" "}
             <Link href="https://github.com/formfunction-hq/formfunction-monorepo">
               Formfunction
             </Link>
             , a Solana NFT marketplace made for 1/1 art and independent
-            creators. Previously, I built products at{" "}
-            <Link href="https://npe.fb.com/">Facebook NPE</Link>. Our team
-            focused on making the world more equitable—you can check out the
-            website we built at{" "}
-            <Link href="https://linkstage.com/">linkstage.com</Link>. Before
-            that, I worked on designing and implementing an IPC protocol for
-            AR/VR devices. Although I prefer working on products—something I
-            only really realized after doing systems software for a year—it was
-            fun to work so close to the hardware. In addition to picking up cool
-            new acronyms like &quot;MCU&quot; and &quot;SoC,&quot; I learned a
-            lot about C++, TCP, FlatBuffers, and how painful it is to stand up a
-            Bluetooth stack. My first team at Facebook was content integrity,
-            where I built tooling and infrastructure for the thousands of
-            content moderators Facebook has around the world. My projects
-            included building a system that maps decisions to actions (which is
-            a lot more complicated than it sounds) and making{" "}
+            creators. Previously, I was at Meta. My last team was in an org
+            called NPE (New Product Experimentation). I worked with a small team
+            building zero to one products. Before that, I worked on designing
+            and implementing an IPC protocol for AR/VR devices. Although I
+            prefer working on products—something I only really realized after
+            doing systems software for a year—it was fun to work so close to the
+            hardware. In addition to picking up cool new acronyms like
+            &quot;MCU&quot; and &quot;SoC,&quot; I learned a lot about C++, TCP,
+            FlatBuffers, and how painful it is to stand up a Bluetooth stack. My
+            first team at Meta was content integrity, where I built tooling and
+            infrastructure for the thousands of content moderators Meta has
+            around the world. My projects included building a system that maps
+            decisions to actions (which is a lot more complicated than it
+            sounds) and making{" "}
             <Link href="https://www.fastcompany.com/90367858/facebook-is-expanding-its-tools-to-make-content-moderation-less-toxic">
               content moderation a less harrowing experience
             </Link>

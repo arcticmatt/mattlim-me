@@ -42,8 +42,9 @@ export default function HomeProjectsSection() {
             title="Formfunction"
           >
             <HomeParagraph style={{ marginTop: 0 }}>
-              Formfunction is the Solana NFT marketplace made for 1/1 art and
-              independent creators.
+              Formfunction was a Solana NFT marketplace made for 1/1 art and
+              independent creators. In our first year, artists made $5M on our
+              platform, and we made over $200k in revenue.
             </HomeParagraph>
           </HomeProject>
 
