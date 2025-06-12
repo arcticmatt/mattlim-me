@@ -10,12 +10,24 @@ export default function HomeAboutSection() {
         <HomeSectionTitle title="About" />
         <div>
           <HomeParagraph>
-            Hey, I’m Matt. I'm currently on the{" "}
-            <Link href="https://openai.com/careers/software-engineer-leverage-engineering">
-              Leverage Engineering
+            Hey, I'm Matt. I'm currently working on{" "}
+            <Link href="https://openai.com/careers/research-engineer-research-scientist-agents/">
+              Agents Research
             </Link>{" "}
-            team at OpenAI, working on scaling the company by using our models
-            (we're hiring!). Before this, I co-founded a company called{" "}
+            at OpenAI. I previously worked on tool use (ADA and Canvas) for{" "}
+            <Link href="https://openai.com/index/introducing-o3-and-o4-mini/">
+              o3 and o4-mini
+            </Link>
+            . Before switching to research I was a product engineer. I helped
+            build{" "}
+            <Link href="https://openai.com/index/introducing-canvas/">
+              Canvas
+            </Link>
+            , and before that was on the Leverage Engineering team automating
+            work across the company.
+          </HomeParagraph>
+          <HomeParagraph>
+            Before OpenAI, I co-founded a company called{" "}
             <Link href="https://github.com/formfunction-hq/formfunction-monorepo">
               Formfunction
             </Link>

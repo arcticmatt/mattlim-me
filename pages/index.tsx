@@ -15,7 +15,7 @@ export default function Home() {
         <title>Matt Lim</title>
         <meta
           name="description"
-          content="Matt Lim is a software engineer. He likes working on side projects and foraging for mushrooms."
+          content="Matt Lim is a researcher and software engineer. He likes working on side projects and foraging for mushrooms."
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script

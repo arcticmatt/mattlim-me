@@ -18,7 +18,7 @@ export default function HomeHeaderSectionk() {
           <div className={styles.title}>Matt Lim</div>
           <div className={styles.description}>
             <div>
-              Working on something new
+              Research at OpenAI
               <br /> Creator of <Link href="#projects">side projects</Link>{" "}
               &#x1f4bb;
               <br /> Check out my <Link href="#favorites">favorites</Link>{" "}
